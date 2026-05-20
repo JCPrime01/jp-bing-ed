@@ -26,6 +26,6 @@ export default async function handler(req, res) {
 
   const sub1 = req.query.sub1 || req.query.fbclid || "";
   const sub1Param = sub1 ? "&sub1=" + sub1 : "";
-  res.writeHead(302, { Location: "https://go.aff.esportiva.bet/hncv0ue6?shareCode=5033880EJTK&afp=bingo" + sub1Param });
+  res.writeHead(302, { Location: "https://go.aff.esportiva.bet/hncv0ue6?shareCode=ATN7IPE84XZ&afp=bingo" + sub1Param });
   res.end();
 }
