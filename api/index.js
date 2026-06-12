@@ -22,10 +22,8 @@ export default async function handler(req, res) {
     res.writeHead(302, { Location: "https://grupojogadorcaro.com.br/quem-e-jota" });
     res.end();
     return;
+  }        
+                                                                                                                                                                                           
+    res.writeHead(302, { Location: 'https://go.aff.esportiva.bet/6j30imbu?campaign_id=7181&shareCode=Y667R6V5LSY&afp1=boost' });                                                                              
+    res.end();                                                                                                                                                                             
   }
-
-  const sub1 = req.query.sub1 || req.query.fbclid || "";
-  const sub1Param = sub1 ? "&sub1=" + sub1 : "";
-  res.writeHead(302, { Location: "https://go.aff.esportiva.bet/hncv0ue6?shareCode=3SMUC32X7E3&afp=bingo" + sub1Param });
-  res.end();
-}
