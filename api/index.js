@@ -24,6 +24,6 @@ export default async function handler(req, res) {
     return;
   }        
                                                                                                                                                                                            
-    res.writeHead(302, { Location: 'https://go.aff.esportiva.bet/6j30imbu?campaign_id=7181&shareCode=VVAYGCEDT0P&afp1=boost' });                                                                              
+    res.writeHead(302, { Location: 'https://go.aff.esportiva.bet/6j30imbu?campaign_id=7181&shareCode=EVW4RJIXZFJ&afp1=boost' });                                                                              
     res.end();                                                                                                                                                                             
   }
